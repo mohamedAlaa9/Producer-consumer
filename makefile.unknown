@@ -1,4 +1,4 @@
 
-all producer:
-	g++ -o producer producer.cpp
-	g++ -o consumer consumer.cpp	
+all:
+	g++ -o producer Producers.cpp
+	g++ -o consumer Consumer.cpp	
